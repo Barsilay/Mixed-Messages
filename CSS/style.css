@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+#container {
+    background: white;
+    width: 750px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#button {
+    margin: 50px auto;
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+}
+
+#button:hover{
+    color: brown;
+    background-color: white;
+    transition: all 1s ease-out;
+}
+
+
+#output {
+    color:white;
+    border: 3px solid brown;
+    margin: 0 25px;
+    background-color: brown;
+
+}
+
